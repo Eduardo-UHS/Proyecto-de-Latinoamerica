@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1 {color:rgb(9, 32, 245);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 1.5cm;
+}
+a {color:rgb(21, 34, 226);} 
+nav a, ul, li{
+display: flex ;
+flex-direction: row ;
+flex-wrap: wrap ;
+justify-content: space-around ;
+align-items: center ;
+align-content: center ; 
+background-color: rgb(251, 255, 0); 
+list-style: none;
+text-decoration: none;
+font-family: cursive;
+}
+
+body {
+    background-color: rgba(134, 196, 236, 0.993);
+    
+
+}
+
+p {
+    line-height:2;
+        text-indent: 50px;
+        margin-left:20px;
+        margin-right:20px;
+        text-align: justify;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size:26px;
+
+       
+    }
+    .image-container {
+      
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;  
+      } 
